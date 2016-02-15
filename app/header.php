@@ -1,29 +1,34 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title><?php echo $system['site_title']?></title>
-                <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Custom Favicon -->
-        <link rel="shortcut icon" href="http://<?php echo($ServerName); ?>/favicon.ico">
 
+  <!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title><?php echo $system[$current_lang.'_site_title']?></title>
 
-        <link rel="stylesheet" href="_/css/lib/html5bp.css"/>
+    <!-- Bootstrap -->
+    <link href="_/css/bootstrap.min.css" rel="stylesheet">
 
-        <link rel="stylesheet" href="_/css/site-styles.css"/>
+    <link href="_/css/style.css" rel="stylesheet">
 
-        <script src="_/js/lib/modernizr/modernizr.js"></script>
-
-    </head>
-    <body style="font-family:'微軟正黑體';color:black;">
-        <header id="SiteHeader">
-      <div class="container">
-          <div class="top-line">
-             <p class="text-right">電話：<?php echo $system['office']?></p>
-          </div>
-  
-  <nav class="navbar navbar-default">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="header">
+     <div class="container">
+       <div class="row mtb10">
+         <div class="col-sm-6 wdall"><img src="_/images/logo1.png"></div>
+         <div class="col-sm-6 wdall"><img src="_/images/logo2.png"></div>
+       </div>
+     
+      <nav class="navbar navbar-default">
  
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -33,21 +38,21 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><img class="img-responsive" src="_/img/logo1.png"/></a>
+      <!-- <a class="navbar-brand  visible-xs" href="#"><img class="vs" width="180" src="images/logo-p.png"></a> -->
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-     
-     <ul class="nav navbar-nav navbar-right">
-
-    <?php include_once "nav.php" ;?>
-        </ul>
+      <ul class="nav navbar-nav">
+        <?php include_once "nav.php" ;?>
+      </ul>
+      <div class="lan">
+         <a href="">繁</a> | <a href="">ENG</a>
+      </div>
       
-      
-      </div><!-- /.navbar-collapse -->
-  
-  </nav>
+    </div><!-- /.navbar-collapse -->
+ 
+</nav>
 </div>
-</header>
+    </div>      
     

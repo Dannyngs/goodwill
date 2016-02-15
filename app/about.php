@@ -1,0 +1,62 @@
+<?php
+require_once 'init.php';
+ 
+?>
+<?php
+require_once 'header.php';
+?>
+   <div class="content">
+    <div class="container bgfff">
+
+     <?php include_once "banner.php" ;?>
+
+<div class="row">
+  <div class="col-md-12 mt15 plr20">
+    <h3 class="tit-yellow">公司簡介:</h3>
+    <p><?php echo $system['description'];?></p>
+  </div>
+
+  <div class="col-md-12 mt15 plr20">
+   
+    <div class="row">
+      <div class="col-md-6 wdall">
+       <img src="_/images/ab1.jpg"/>
+      </div>
+
+      <div class="col-md-3 wdall fs14">
+        <img src="_/images/ab2.jpg"/>
+        <p>凡直接在網上挑選或首次到本
+公司揀選女傭時即時作出決定
+者均可享有以下優惠：</p>
+  <p>菲傭：菲律賓保險費半價<br/>
+印傭：服務費減三佰元<br/>
+*以放一次帶為原則<br/>
+*不可與其他優惠同時使用</p>
+      </div>
+      
+      <div class="col-md-3 wdall">
+        <img src="_/images/ab3.jpg"/>
+        <a class="buts" href="<?php echo  $aurl;?>page.php?id=2"><img src="_/images/but1.jpg"></a>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="col-md-12 mt15 plr20 ye-bor">
+  <p><img class="pr20" src="_/images/ab4.jpg"> 本公司持有<span class="f-red">菲律賓駐港領事館</span>認可之僱傭牌照</p>
+  <p><img img class="pr20" src="_/images/ab5.jpg"> 本公司持有<span class="f-red">印尼駐港總領事館</span>批核之經營證書</p>
+    
+  </div>
+   
+  
+</div>
+
+
+
+</div>
+
+    </div>
+<?php
+require_once 'footer.php';
+?>
+

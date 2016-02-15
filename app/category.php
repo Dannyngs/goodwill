@@ -6,62 +6,51 @@ require_once 'init.php';
 <?php
 require_once 'header.php';
 ?>
+
+
+    <div class="content">
+    <div class="container bgfff">
+
+<div class="row ye-bor">
  
-<div class="container">
-     <div class="banner">
-      <img class="img-responsive" src="_/img/pro1.jpg"/> 
-    </div>
-    
-    <div id="PageBody">
-    <div class="row showc">
-        
-     <h4><B>OUR PRODUCT</B></h4>   
-               
+  <div class="col-md-8 mt15 plr20">
+    <h3 class="tit-yellow">最新資訊:</h3>
+    <ul class="list-unstyled news">
+                    
     <?php  foreach($pros as $pro)          
 {?> 
 
-
-   <div class="col-md-4 col-sm-6">
-             <div class="prodiv text-center">
-                 <a href="<?php echo  $imgurl.$pro['image'];?>" data-lightbox="image1" data-title="<?php echo $pro['title'];?>">
-                 <img class="img-responsive" src="<?php echo  $imgurl.$pro['image'];?>"/>
-                 
-                  <div class="moved">
-                   <p><?php echo $pro['title'];?></p>
-                  </div>
-                </a>
-             </div>
-        </div>
-
-        <?php
+    <li class="clearfix"><a href="single.php?id=<?php echo $pro['id'];?>"><?php echo $pro['title'];?><span class="pull-right"><?php echo $pro['date'];?></span></a></li>
+   
+         <?php
     }
 ?>
 
-        
+   </ul>
 
-       
+   <div class="mt15 wdall">
+     <img class="pr20" src="_/images/newlo4.jpg">
+     <img class="pr20" src="_/images/newlo1.jpg">
+     <img class="pr20" src="_/images/newlo3.jpg">
+     <img class="pr20" src="_/images/newlo2.jpg">
+   </div>
+    
+  </div>
+
+  <div class="col-md-4 mt15 plr20 wdall">
+    <img src="_/images/news.jpg">
+  </div>
+   
+  
+</div>
+
+
+
+</div>
+
     </div>
 
-        <!--
-       <nav class="prolist">
-  <ul class=" pagination">
-    <li>
-      <a href="#" aria-label="Previous">
-        <span aria-hidden="true">&laquo;</span>
-      </a>
-    </li>
-   {% for product in totalpage %}
-      <li><a href="#">1</a></li>
-   {% endfor %}
-    <li>
-      <a href="#" aria-label="Next">
-        <span aria-hidden="true">&raquo;</span>
-      </a>
-    </li>
-  </ul>
-</nav>
--->
-   </div>
+
 <?php
 require_once 'footer.php';
 ?>

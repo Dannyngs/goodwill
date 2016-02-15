@@ -4,7 +4,7 @@
 
 //# Read from databases
     try{
-    $dsn = "mysql:host=120.24.233.54;dbname=kim_hung_aquarium";
+    $dsn = "mysql:host=120.24.233.54;dbname=goodwill";
     $db = new PDO($dsn, 'danny', 'Ud0891802183');
     $db->query('set names utf8;');
     }catch(Exception $e){
@@ -14,8 +14,10 @@
     }
 
 //# Global Iage
-    $imgurl ="http://58.96.172.29/newcmweb.hk/themes/testdir/app/admin/media/images/";
-    
+   // $imgurl ="http://58.96.172.29/newcmweb.hk/themes/testdir/app/admin/media/images/";
+  
+    $imgurl="";
+ 
 //# Read System
     $rs = $db->query("SELECT* FROM T_System");
     $system = $rs->fetch();

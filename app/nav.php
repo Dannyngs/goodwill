@@ -23,10 +23,10 @@
                                 }
                             echo "</ul>";
                            
-                       }else{
+                       }else{//no sub menu
                            
                         echo "<li >";
-                        echo "<a href='".$item['url']."'>".$item[$current_lang.'_title']."</a>";
+                        echo "<a class='text-center' href='".$item['url']."'><b class='icon-b'><span class='glyphicon ".$item['icon']."' aria-hidden='true'></span></b><p>".$item[$current_lang.'_title']."</p></a>";
 
                             
                        }

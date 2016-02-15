@@ -7,112 +7,101 @@ $rs = $db->query("SELECT* FROM T_Showcase");
 <?php
 require_once 'header.php';
 ?>
-     
-        
-  <div class="container">
-     <div class="banner">
-         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    
-  </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img class="img-responsive" src="_/img/banner.jpg"/>
-     
-    </div>
-    <div class="item">
-      <img class="img-responsive" src="_/img/banner2.jpg"/>
-     
-    </div>
    
+ <div class="content">
+    <div class="container bgfff">
+
+     <?php include_once "banner.php" ;?>
+
+
+<div class="row">
+  <div class="col-md-12 mt15 plr20">
+    <h3 class="tit-yellow">公司簡介:</h3>
+    <p><?php echo $system[$current_lang.'_description'];?></p>
   </div>
 
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-         
-      <!--<img class="img-responsive" src="_/img/banner1.jpg"/> -->
-    </div>
-    
-    <div id="PageBody">
-    <div class="row showc">
-        
-        
-        
-    <?php  foreach($showcases as $show)          
-{?> 
-
-        <div class="col-sm-6 col-md-4">
-      
-        <div class="thumbnail">
-        <a class="cat-list" href="<?php echo $show['link'];?>">
-         <img class="img-responsive" src="<?php echo $imgurl.$show['img'];?>"/>    
-        </a>    
-      
-      <div class="caption text-center">
-        <h3 class="hometitle"><?php echo $show['title'];?></h3>
-        
-        <p><a href="<?php echo $show['link'];?>" class="btn btn-primary cat-but" role="button">READ MORE</a></p>
-    
-    </div>
-      </a>
-   
-  </div>
-        
-</div>
-<?php
-    }
-?>
-
-        
-       
-
-
-
-    </div>
-
-<div class="ind-bottom">
+  <div class="col-md-12 mt15 plr20">
+    <h3 class="tit-yellow">服務範圍:</h3>
     <div class="row">
-        <div class="col-md-3">
-           <ul class="list-unstyled left-menu">
-            
-    <?php include "nav.php"; ?>
-           </ul>
-        </div>
-        <div class="col-md-4">
-          <h3>關於我們</h3>
-            <p><?php echo $system['description'];?></p>
-        </div>
-        <div class="col-md-4 col-md-offset-1">
-      
-           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.8190829230048!2d114.16750771492734!3d22.32268094772317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400c84c46944f%3A0xc8c9cef078a1785a!2z5pe66KeS6YCa6I-c6KGXMTgxLTE4N-iZn-amruiLseaokw!5e0!3m2!1szh-TW!2shk!4v1454061304376" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
- 						
-        </div>
+      <div class="col-md-6">
+      <p>
+        <b class="icon-b">
+          <span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span>
+        </b>
+         本港領事館合約費及文件程序費 
+      </p>
+
+      <p>
+        <b class="icon-b">
+          <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>
+        </b>
+         有關國家政府之文件手續費及程序費 
+      </p>
+
+      <p>
+        <b class="icon-b">
+          <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
+        </b>
+         香港入境簽証費 
+      </p>
+
+       <p>
+        <b class="icon-b">
+          <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+        </b>
+         文件速遞費, 傳真費 
+      </p>
+
+      </div>
+        
+      <div class="col-md-6">
+
+      <p>
+        <b class="icon-b">
+          <span class="glyphicon glyphicon-plane" aria-hidden="true"></span>
+        </b>
+         女傭來港機票, 離境稅及機場稅
+      </p>
+
+          <p>
+        <b class="icon-b">
+          <span class="glyphicon glyphicon-send" aria-hidden="true"></span>
+        </b>
+         機場接送女傭至本公司之交通費
+      </p>
+
+        <p>
+        <b class="icon-b">
+          <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+        </b>
+         家政訓練課程
+      </p>
+
+        <p>
+        <b class="icon-b">
+          <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+        </b>
+         代女傭辦理領事館報到手續及代辦領取香港身份証
+      </p>
+
+      </div>
     </div>
+  </div>
+
+  <div class="col-md-12 mt15 plr20 ye-bor">
+    <img class="pr20" src="_/images/in1.jpg">
+    <img class="pr20" src="_/images/in2.jpg">
+    <img class="pr20" src="_/images/in3.jpg">
+  </div>
+   
+  
 </div>
 
 
-   </div>
-    <!--[if lt IE 9]>
-        <p class="chromeframe">You are using an <strong>outdated</strong> browser. 
-        Please <a href="http://browsehappy.com/">upgrade your browser</a> 
-        or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-          <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>  
-    <![endif]-->
 
+</div>
+
+    </div>
 
 <?php
 require_once 'footer.php';
