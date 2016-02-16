@@ -1,0 +1,10 @@
+branch-defaults:
+  default:
+    environment: goodwill-dev
+global:
+  application_name: goodwill
+  default_ec2_keyname: dannyng-aws
+  default_platform: PHP 5.4
+  default_region: ap-southeast-1
+  profile: eb-cli
+  sc: null
