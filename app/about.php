@@ -12,8 +12,8 @@ require_once 'header.php';
 
 <div class="row">
   <div class="col-md-12 mt15 plr20">
-    <h3 class="tit-yellow">公司簡介:</h3>
-    <p><?php echo $system['description'];?></p>
+    <h3 class="tit-yellow"><?php echo $lang['intro'];?>:</h3>
+    <p><?php echo $system[$current_lang.'_description'];?></p>
   </div>
 
   <div class="col-md-12 mt15 plr20">
@@ -25,6 +25,8 @@ require_once 'header.php';
 
       <div class="col-md-3 wdall fs14">
         <img src="_/images/ab2.jpg"/>
+          <?php echo $system[$current_lang.'_special_offer'];?>
+<!--
         <p>凡直接在網上挑選或首次到本
 公司揀選女傭時即時作出決定
 者均可享有以下優惠：</p>
@@ -32,6 +34,7 @@ require_once 'header.php';
 印傭：服務費減三佰元<br/>
 *以放一次帶為原則<br/>
 *不可與其他優惠同時使用</p>
+-->
       </div>
       
       <div class="col-md-3 wdall">

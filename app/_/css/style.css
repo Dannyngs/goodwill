@@ -1,4 +1,4 @@
-body{background:url('../images/bg.png') #f8e8db center;font-size:16px;color:#040404;line-height:3rem;}
+body{background:url('../images/bg.png') #f8e8db center;font-size:16px;color:#040404;line-height:3rem;font-family: "roboto","微軟正黑體"}
 a{color:#666;}
 a:hover{color:#ff6a00;}
 @media (min-width: 1200px) {.container {width: 980px;}
@@ -28,13 +28,13 @@ a:hover{color:#ff6a00;}
 .wdall{text-align: center;}
 .wdall img{max-width:100%}
 
-
+.mtb50{margin-top:50px;margin-bottom:50px;}
 .mtb10{margin-top:10px;margin-bottom:10px;}
 .mt15{margin-top:15px;}
 .mt5{margin-top:5px;}
 .mr20{margin-right:20px}
 
-.plr20{padding-left:25px;padding-right:20px;}
+.plr20{padding-left:50px;padding-right:50px;}
 .pr20{padding-right:20px;}
 .nop{padding-left:0;padding-right:0;}
 .bgfff{background-color:#fff;}
@@ -42,7 +42,7 @@ a:hover{color:#ff6a00;}
 .bgyellow a{color: #fff;text-decoration:none;font-size:14px;}
 .f-yellow{color:#ff6a00;}
 .f-red{color:#d30105;}
-.tit-yellow{border-left: 2px solid #ff6a00;padding-left:8px;color:#ff6a00;}
+.tit-yellow{font-weight: bold;border-left: 2px solid #ff6a00;padding-left:8px;color:#ff6a00;}
 
 .fs14{font-size:14px;line-height: 22px;text-align: left;}
 

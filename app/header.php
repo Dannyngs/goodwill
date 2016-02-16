@@ -23,13 +23,13 @@
   <body>
     <div class="header">
      <div class="container">
-       <div class="row mtb10">
+       <div class="row mtb50">
          <div class="col-sm-6 wdall"><img src="_/images/logo1.png"></div>
          <div class="col-sm-6 wdall"><img src="_/images/logo2.png"></div>
        </div>
-     
+
       <nav class="navbar navbar-default">
- 
+
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -47,12 +47,11 @@
         <?php include_once "nav.php" ;?>
       </ul>
       <div class="lan">
-         <a href="">繁</a> | <a href="">ENG</a>
+         <a href="?lang=chi">繁</a> | <a href="?lang=eng">ENG</a>
       </div>
-      
+
     </div><!-- /.navbar-collapse -->
- 
+
 </nav>
 </div>
-    </div>      
-    
+    </div>

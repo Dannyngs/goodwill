@@ -16,13 +16,16 @@ require_once 'header.php';
 
 <div class="row">
   <div class="col-md-12 mt15 plr20">
-    <h3 class="tit-yellow">公司簡介:</h3>
+    <h3 class="tit-yellow"><?php echo $lang['intro'];?>:</h3>
     <p><?php echo $system[$current_lang.'_description'];?></p>
   </div>
 
   <div class="col-md-12 mt15 plr20">
-    <h3 class="tit-yellow">服務範圍:</h3>
+    <h3 class="tit-yellow"><?php echo $lang['server'];?>:</h3>
+      
     <div class="row">
+        <?php echo $system[$current_lang.'_server'];?>
+<!--
       <div class="col-md-6">
       <p>
         <b class="icon-b">
@@ -85,6 +88,7 @@ require_once 'header.php';
       </p>
 
       </div>
+-->
     </div>
   </div>
 

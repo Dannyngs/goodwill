@@ -14,13 +14,13 @@ require_once 'header.php';
 <div class="row ye-bor">
  
   <div class="col-md-8 mt15 plr20">
-    <h3 class="tit-yellow">最新資訊:</h3>
+    <h3 class="tit-yellow"><?php echo $lang['news'];?>:</h3>
     <ul class="list-unstyled news">
                     
     <?php  foreach($pros as $pro)          
 {?> 
 
-    <li class="clearfix"><a href="single.php?id=<?php echo $pro['id'];?>"><?php echo $pro['title'];?><span class="pull-right"><?php echo $pro['date'];?></span></a></li>
+    <li class="clearfix"><a href="single.php?id=<?php echo $pro['id'];?>"><?php echo $pro[$current_lang.'_title'];?><span class="pull-right"><?php echo $pro['date'];?></span></a></li>
    
          <?php
     }

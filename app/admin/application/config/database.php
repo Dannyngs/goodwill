@@ -51,7 +51,7 @@ $active_record = TRUE;
 $db['default']['hostname'] = 'db.cmweb.hk'; // for pdo: mysql:host=localhost
 $db['default']['username'] = 'danny';
 $db['default']['password'] = 'Ud0891802183';
-$db['default']['database'] = 'kim_hung_aquarium';
+$db['default']['database'] = 'goodwill';
 $db['default']['dbdriver'] = 'mysqli';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;

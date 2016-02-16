@@ -11,7 +11,8 @@ require_once 'header.php';
    <div class="content">
     <div class="container bgfff">
 
-       <?php echo $page["content"];?>
+       <?php echo $page[$current_lang."_content"];?>
+       
 
     </div>
 

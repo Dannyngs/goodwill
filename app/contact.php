@@ -14,33 +14,33 @@ require_once 'header.php';
            <div class="row">
              <div class="col-md-6">
                <div class="form-group">
-    <label for="inputEmail3" class="col-sm-4 control-label">*稱呼</label>
+    <label for="inputEmail3" class="col-sm-4 control-label">*<?php echo $lang['mrmrs'];?></label>
     <div class="col-sm-8">
      <select class="form-control" id="name">
-         <option value="">請選擇</option>
-       <option value="mr">先生</option>
-       <option value="miss">小姐</option>
-       <option value="mrs">太太</option>
+         <option value=""><?php echo $lang['please'];?></option>
+       <option value="mr"><?php echo $lang['mr'];?></option>
+       <option value="ms"><?php echo $lang['ms'];?></option>
+       <option value="mrs"><?php echo $lang['mrs'];?></option>
      </select>
     </div>
   </div>
 
    <div class="form-group">
-    <label class="col-sm-4 control-label">*電話</label>
+    <label class="col-sm-4 control-label">*<?php echo $lang['tel'];?></label>
     <div class="col-sm-8">
       <input type="tel" class="form-control" id="tel">
     </div>
   </div>
 
    <div class="form-group">
-    <label class="col-sm-4 control-label">*電郵</label>
+    <label class="col-sm-4 control-label">*<?php echo $lang['email'];?></label>
     <div class="col-sm-8">
       <input type="email" class="form-control" id="email">
     </div>
   </div>
 
    <div class="form-group">
-    <label for="inputEmail3" class="col-sm-4 control-label">*想了解的服務</label>
+    <label for="inputEmail3" class="col-sm-4 control-label">*<?php echo $lang['servertoknow'];?></label>
     <div class="col-sm-8">
      <select class="form-control" id="server">
        <option value="worker">搵工人</option>
@@ -54,14 +54,14 @@ require_once 'header.php';
 
              <div class="col-md-6">
                 <div class="form-group">
-    <label class="col-sm-4 control-label">理想聯絡時間</label>
+    <label class="col-sm-4 control-label"><?php echo $lang['time'];?></label>
     <div class="col-sm-8">
       <input type="text" class="form-control" id="time">
     </div>
   </div>
 
    <div class="form-group">
-    <label class="col-sm-4 control-label">其他補充資料</label>
+    <label class="col-sm-4 control-label"><?php echo $lang['msg'];?></label>
     <div class="col-sm-8">
       <textarea class="form-control" rows="5" id="more"></textarea>
     </div>
@@ -72,9 +72,9 @@ require_once 'header.php';
 
    <div class="row">
       <div class="form-group text-center">
-      <button type="reset" class="btn btn-warning mr20">重置</button>
+      <button type="reset" class="btn btn-warning mr20"><?php echo $lang['reset'];?></button>
     
-      <button id="mysubmit" type="submit" class="btn btn-warning">遞交</button>
+      <button id="mysubmit" type="submit" class="btn btn-warning"><?php echo $lang['submit'];?></button>
    
   </div>
    </div>
@@ -87,10 +87,9 @@ require_once 'header.php';
 
 <div class="row mt15 plr20">
  
-    <h3 class="tit-yellow">聯絡我們:</h3>
+    <h3 class="tit-yellow"> <?php echo $lang['contact'];?>:</h3>
       <div class="col-md-6 mt15">
-          <p><b style="font-size:24px;">家譽</b>僱請有限公司</br>
-          （炮台山總行）</p>
+         <?php echo $lang['conpany1'];?>
       <p>
         <b class="icon-b">
           <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
@@ -116,7 +115,7 @@ require_once 'header.php';
         <b class="icon-b">
           <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
         </b>
-         <?php echo $system['address1']?>
+         <?php echo $system[$current_lang.'_address1']?>
       </p>
 
       <p>
@@ -139,8 +138,7 @@ require_once 'header.php';
 <div class="row mt15 plr20 ye-bor">
    
       <div class="col-md-6 mt15">
-        <p><b style="font-size:24px;">樂滿庭</b>僱傭中心</br>
-          （堅尼地域分行）</p>
+         <?php echo $lang['conpany2'];?>
       <p>
         <b class="icon-b">
           <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
@@ -166,7 +164,7 @@ require_once 'header.php';
         <b class="icon-b">
           <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
         </b>
-         <?php echo $system['address2']?>
+         <?php echo $system[$current_lang.'_address2']?>
       </p>
 
       <p>
