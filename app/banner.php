@@ -11,11 +11,11 @@
    
 
     <div class="item active">
-      <img src="_/images/banner2.jpg" alt="...">
+      <img src="_/images/banner3.jpg" alt="...">
     </div>
 
      <div class="item">
-      <img src="_/images/banner3.jpg" alt="...">
+      <img src="_/images/prom.jpg" alt="...">
     </div>
 
      <div class="item">
