@@ -4,16 +4,13 @@
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
     <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
   </ol>
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="_/images/banner1.jpg" alt="...">
-    </div>
+   
 
-    <div class="item">
+    <div class="item active">
       <img src="_/images/banner2.jpg" alt="...">
     </div>
 
