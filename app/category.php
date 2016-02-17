@@ -28,7 +28,7 @@ require_once 'header.php';
 
    </ul>
 
-   <div class="mt15 wdall">
+   <div class="mt15 wdall" style="margin-top:70px;">
      <img class="pr20" src="_/images/newlo4.jpg">
      <img class="pr20" src="_/images/newlo1.jpg">
      <img class="pr20" src="_/images/newlo3.jpg">

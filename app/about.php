@@ -39,15 +39,16 @@ require_once 'header.php';
       
       <div class="col-md-3 wdall">
         <img src="_/images/ab3.jpg"/>
-        <a class="buts" href="<?php echo  $aurl;?>page.php?id=2"><img src="_/images/but1.jpg"></a>
+        <a class="buts" href="page.php?id=2"><img src="_/images/but1.jpg"></a>
       </div>
+     
 
     </div>
   </div>
 
   <div class="col-md-12 mt15 plr20 ye-bor">
-  <p><img class="pr20" src="_/images/ab4.jpg"> 本公司持有<span class="f-red">菲律賓駐港領事館</span>認可之僱傭牌照</p>
-  <p><img img class="pr20" src="_/images/ab5.jpg"> 本公司持有<span class="f-red">印尼駐港總領事館</span>批核之經營證書</p>
+    <p><img class="pr20" src="_/images/ab4.jpg"> <?php echo $lang['tag1'];?></p>
+  <p><img img class="pr20" src="_/images/ab5.jpg"> <?php echo $lang['tag2'];?></p>
     
   </div>
    

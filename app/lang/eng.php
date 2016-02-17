@@ -4,28 +4,33 @@
 Language: Chinese
 ------------------
 */
- 
+
 $lang = array();
- 
+
 $lang['intro'] = "Introduction";
 $lang['server'] = 'Servers';
 $lang['terms'] = 'Terms';
 $lang['news'] = 'News';
 
  $lang['contact'] = 'Contact Us';
- $lang['mrmrs'] = 'Call';
+ $lang['mrmrs'] = 'Mr/Mrs/Miss';
  $lang['mr'] = 'Mr';
  $lang['mrs'] = 'Mrs';
- $lang['ms'] = 'Ms';
-$lang['please'] = 'Choose';
+ $lang['ms'] = 'Miss';
+$lang['findmaid'] = 'find maids';
+$lang['renew'] = 'renew contract';
+$lang['others'] = 'others';
 
  $lang['tel'] = 'Tel';
  $lang['email'] = 'Email';
- $lang['servertoknow'] = 'Want To Know';
+ $lang['servertoknow'] = 'Service';
  $lang['time'] = 'Time To Contact';
- $lang['msg'] = 'Other';
+ $lang['msg'] = 'Other Infomation';
  $lang['reset'] = 'Reset';
  $lang['submit'] = 'Submit';
+
+$lang['tag1'] = 'for English<span class="f-red">菲律賓駐港領事館</span>認可之僱傭牌照';
+$lang['tag2'] = 'for English<span class="f-red">印尼駐港總領事館</span>批核之經營證書';
 
  $lang['conpany1'] = '<h3>Goodwill Placement Services Limited</h3>(Fortress Hill Head Office )';
  $lang['conpany2'] = '<h3>Happy House Employment Agency </h3>(Central Branch)';

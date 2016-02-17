@@ -47,7 +47,7 @@
         <?php include_once "nav.php" ;?>
       </ul>
       <div class="lan">
-         <a href="?lang=chi">繁</a> | <a href="?lang=eng">ENG</a>
+         <a href="index.php?lang=chi">繁</a> | <a href="index.php?lang=eng">ENG</a>
       </div>
 
     </div><!-- /.navbar-collapse -->
