@@ -16,7 +16,7 @@ require_once 'header.php';
   <h3 class="tit-yellow">最新咨詢:<a class="back" href="category.php">返回</a></h3>
 
       <h4 class="text-center f-yellow"><?php echo $pro[$current_lang.'_title'];?></h4>
-      <h6 class="new-date"><?php echo $pro['date'];?> |  新聞公報</h6>
+      <h6 class="new-date"><?php echo $pro['date'];?> |  <?php echo $pro['source'];?></h6>
 
 <?php echo $pro[$current_lang.'_content'];?>
 
