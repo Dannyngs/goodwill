@@ -1,0 +1,2 @@
+<?php exit; ?>
+{"ids":["banner","title","chi_content","eng_content"],"table":{"crudTitle":"T_Page manager","crudRowsPerPage":"20"},"filter":{"list":["id","title","banner","chi_content","eng_content"],"atrr":{"id":{"alias":"id"}}},"column":{"list":["id","title","banner","chi_content","eng_content"],"atrr":{"id":{"alias":"id"}},"actived":["id","title"]},"frm_type":"2"}
