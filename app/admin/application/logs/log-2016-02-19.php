@@ -190,3 +190,46 @@ ERROR - 2016-02-19 06:57:30 --> Severity: Notice  --> Only variable references s
 ERROR - 2016-02-19 06:57:37 --> Severity: Warning  --> date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. E:\goodwill\app\admin\system\libraries\Log.php 86
 ERROR - 2016-02-19 06:57:37 --> Severity: Warning  --> date(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. E:\goodwill\app\admin\system\libraries\Log.php 99
 ERROR - 2016-02-19 06:57:37 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' FROM `T_Menu`' at line 1
+ERROR - 2016-02-19 07:07:46 --> Severity: Notice  --> Only variable references should be returned by reference E:\goodwill\app\admin\system\core\Common.php 257
+ERROR - 2016-02-19 07:07:51 --> Severity: Notice  --> Only variable references should be returned by reference E:\goodwill\app\admin\system\core\Common.php 257
+ERROR - 2016-02-19 07:08:00 --> Severity: Notice  --> Only variable references should be returned by reference E:\goodwill\app\admin\system\core\Common.php 257
+ERROR - 2016-02-19 07:08:14 --> Severity: Notice  --> Only variable references should be returned by reference E:\goodwill\app\admin\system\core\Common.php 257
+ERROR - 2016-02-19 07:08:19 --> Severity: Notice  --> Only variable references should be returned by reference E:\goodwill\app\admin\system\core\Common.php 257
+ERROR - 2016-02-19 07:08:33 --> Severity: Notice  --> Only variable references should be returned by reference E:\goodwill\app\admin\system\core\Common.php 257
+ERROR - 2016-02-19 07:08:35 --> Severity: Notice  --> Only variable references should be returned by reference E:\goodwill\app\admin\system\core\Common.php 257
+ERROR - 2016-02-19 07:08:38 --> Severity: Notice  --> Only variable references should be returned by reference E:\goodwill\app\admin\system\core\Common.php 257
+ERROR - 2016-02-19 07:08:46 --> Severity: Notice  --> Only variable references should be returned by reference E:\goodwill\app\admin\system\core\Common.php 257
+ERROR - 2016-02-19 07:08:51 --> Severity: Notice  --> Only variable references should be returned by reference E:\goodwill\app\admin\system\core\Common.php 257
+ERROR - 2016-02-19 07:09:01 --> Severity: Notice  --> Only variable references should be returned by reference E:\goodwill\app\admin\system\core\Common.php 257
+ERROR - 2016-02-19 07:09:08 --> Severity: Notice  --> Only variable references should be returned by reference E:\goodwill\app\admin\system\core\Common.php 257
+ERROR - 2016-02-19 07:11:17 --> Severity: Notice  --> Only variable references should be returned by reference E:\goodwill\app\admin\system\core\Common.php 257
+ERROR - 2016-02-19 07:11:17 --> Severity: Notice  --> Only variable references should be returned by reference E:\goodwill\app\admin\system\core\Common.php 257
+ERROR - 2016-02-19 07:11:19 --> Severity: Notice  --> Only variable references should be returned by reference E:\goodwill\app\admin\system\core\Common.php 257
+ERROR - 2016-02-19 07:11:22 --> Severity: Notice  --> Only variable references should be returned by reference E:\goodwill\app\admin\system\core\Common.php 257
+ERROR - 2016-02-19 07:11:24 --> Severity: Notice  --> Only variable references should be returned by reference E:\goodwill\app\admin\system\core\Common.php 257
+ERROR - 2016-02-19 07:11:30 --> Severity: Notice  --> Only variable references should be returned by reference E:\goodwill\app\admin\system\core\Common.php 257
+ERROR - 2016-02-19 07:11:37 --> Severity: Notice  --> Only variable references should be returned by reference E:\goodwill\app\admin\system\core\Common.php 257
+ERROR - 2016-02-19 07:11:38 --> Severity: Notice  --> Only variable references should be returned by reference E:\goodwill\app\admin\system\core\Common.php 257
+ERROR - 2016-02-19 07:12:40 --> Severity: Notice  --> Only variable references should be returned by reference E:\goodwill\app\admin\system\core\Common.php 257
+ERROR - 2016-02-19 07:12:43 --> Severity: Notice  --> Only variable references should be returned by reference E:\goodwill\app\admin\system\core\Common.php 257
+ERROR - 2016-02-19 07:12:44 --> Severity: Notice  --> Only variable references should be returned by reference E:\goodwill\app\admin\system\core\Common.php 257
+ERROR - 2016-02-19 07:12:46 --> Severity: Notice  --> Only variable references should be returned by reference E:\goodwill\app\admin\system\core\Common.php 257
+ERROR - 2016-02-19 07:12:47 --> Severity: Notice  --> Only variable references should be returned by reference E:\goodwill\app\admin\system\core\Common.php 257
+ERROR - 2016-02-19 07:12:51 --> Severity: Notice  --> Only variable references should be returned by reference E:\goodwill\app\admin\system\core\Common.php 257
+ERROR - 2016-02-19 07:12:53 --> Severity: Notice  --> Only variable references should be returned by reference E:\goodwill\app\admin\system\core\Common.php 257
+ERROR - 2016-02-19 07:13:01 --> Severity: Notice  --> Only variable references should be returned by reference E:\goodwill\app\admin\system\core\Common.php 257
+ERROR - 2016-02-19 07:13:02 --> Severity: Notice  --> Only variable references should be returned by reference E:\goodwill\app\admin\system\core\Common.php 257
+ERROR - 2016-02-19 07:13:04 --> Severity: Notice  --> Only variable references should be returned by reference E:\goodwill\app\admin\system\core\Common.php 257
+ERROR - 2016-02-19 07:13:05 --> Severity: Notice  --> Only variable references should be returned by reference E:\goodwill\app\admin\system\core\Common.php 257
+ERROR - 2016-02-19 07:13:15 --> Severity: Notice  --> Only variable references should be returned by reference E:\goodwill\app\admin\system\core\Common.php 257
+ERROR - 2016-02-19 07:13:18 --> Severity: Notice  --> Only variable references should be returned by reference E:\goodwill\app\admin\system\core\Common.php 257
+ERROR - 2016-02-19 07:13:21 --> Severity: Notice  --> Only variable references should be returned by reference E:\goodwill\app\admin\system\core\Common.php 257
+ERROR - 2016-02-19 07:13:44 --> Severity: Notice  --> Only variable references should be returned by reference E:\goodwill\app\admin\system\core\Common.php 257
+ERROR - 2016-02-19 07:13:47 --> Severity: Notice  --> Only variable references should be returned by reference E:\goodwill\app\admin\system\core\Common.php 257
+ERROR - 2016-02-19 07:14:20 --> Severity: Notice  --> Only variable references should be returned by reference E:\goodwill\app\admin\system\core\Common.php 257
+ERROR - 2016-02-19 07:14:32 --> Severity: Notice  --> Only variable references should be returned by reference E:\goodwill\app\admin\system\core\Common.php 257
+ERROR - 2016-02-19 07:14:47 --> Severity: Notice  --> Only variable references should be returned by reference E:\goodwill\app\admin\system\core\Common.php 257
+ERROR - 2016-02-19 07:14:49 --> Severity: Notice  --> Only variable references should be returned by reference E:\goodwill\app\admin\system\core\Common.php 257
+ERROR - 2016-02-19 07:14:52 --> Severity: Notice  --> Only variable references should be returned by reference E:\goodwill\app\admin\system\core\Common.php 257
+ERROR - 2016-02-19 07:14:56 --> Severity: Notice  --> Only variable references should be returned by reference E:\goodwill\app\admin\system\core\Common.php 257
+ERROR - 2016-02-19 07:15:12 --> Severity: Notice  --> Only variable references should be returned by reference E:\goodwill\app\admin\system\core\Common.php 257
