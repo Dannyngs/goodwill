@@ -49,8 +49,12 @@ a:hover{color:#ff6a00;}
 
 .fs14{font-size:14px;line-height: 22px;text-align: left;}
 
-.icon-b{display:inline-block;width:40px;height:40px;text-align:center;}
+.icon-b{display:inline-block;width:40px;height:40px;border:3px solid #ff6a00;border-radius:40px;text-align:center;}
 .icon-b span{line-height:33px;color:#ff6a00;font-size:18px;}
+
+
+.icon-c{display:inline-block;width:40px;height:40px;text-align:center;}
+.icon-c span{line-height:33px;color:#ff6a00;font-size:18px;}
 
 
 .ye-bor{padding-bottom:25px;border-bottom:3px solid #ff6a00;}

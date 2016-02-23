@@ -90,35 +90,35 @@ require_once 'header.php';
       <div class="col-md-6 mt15">
          <?php echo $lang['conpany1'];?>
       <p>
-        <b class="icon-b">
+        <b class="icon-c">
           <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
         </b>
          <?php echo $system['tel1']?>
       </p>
 
       <p>
-        <b class="icon-b" style="border:none">
+        <b class="icon-c" style="border:none">
           <img src="_/images/wapp.jpg">
         </b>
          <?php echo $system['whatsapp1']?>
       </p>
 
       <p>
-        <b class="icon-b">
+        <b class="icon-c">
           <span class="glyphicon glyphicon-print" aria-hidden="true"></span>
         </b>
          <?php echo $system['fax1']?>
       </p>
 
        <p>
-        <b class="icon-b">
+        <b class="icon-c">
           <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
         </b>
          <?php echo $system[$current_lang.'_address1']?>
       </p>
 
       <p>
-        <b class="icon-b">
+        <b class="icon-c">
           <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
         </b>
         <a href="mailto:<?php echo $system['emal']?>"><?php echo $system['emal']?></a>
@@ -139,35 +139,35 @@ require_once 'header.php';
       <div class="col-md-6 mt15">
          <?php echo $lang['conpany2'];?>
       <p>
-        <b class="icon-b">
+        <b class="icon-c">
           <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
         </b>
          <?php echo $system['tel2']?>
       </p>
 
       <p>
-        <b class="icon-b" style="border:none">
+        <b class="icon-c" style="border:none">
           <img src="_/images/wapp.jpg">
         </b>
          <?php echo $system['whatsapp2']?>
       </p>
 
       <p>
-        <b class="icon-b">
+        <b class="icon-c">
           <span class="glyphicon glyphicon-print" aria-hidden="true"></span>
         </b>
          <?php echo $system['fax2']?>
       </p>
 
        <p>
-        <b class="icon-b">
+        <b class="icon-c">
           <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
         </b>
          <?php echo $system[$current_lang.'_address2']?>
       </p>
 
       <p>
-        <b class="icon-b">
+        <b class="icon-c">
           <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
         </b>
         <a href="mailto:<?php echo $system['emal']?>"><?php echo $system['emal']?></a>
