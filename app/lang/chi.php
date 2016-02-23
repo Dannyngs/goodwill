@@ -36,4 +36,6 @@ $lang['tag2'] = '本公司持有<span class="f-red">印尼駐港總領事館</sp
 $lang['conpany1'] = '  <p><b style="font-size:24px;">家譽</b>僱請有限公司</br>（炮台山總行）</p>';
  $lang['conpany2'] = ' <p><b style="font-size:24px;">樂滿庭</b>僱傭中心</br>（堅尼地域分行）</p>';
 
+$lang['privacy'] ='（私隱條款：本公司絕對尊重客戶的隱私權，各客戶的個人資料只會作為公司內部用途，除非客戶同意，本公司不會將資料作其他用途）';
+
 ?>

@@ -80,13 +80,13 @@ require_once 'header.php';
 
 
         </form>
-          <p class="f-red text-center" style="font-size:14px">（私隱條款：本公司絕對尊重客戶的隱私權，各客戶的個人資料只會作為公司內部用途，除非客戶同意，本公司不會將資料作其他用途）</p>
+          <p class="f-red text-center" style="font-size:14px"><?php echo $lang['privacy'];?></p>
       </div>
 
 
 <div class="row mt15 plr20">
 
-    <h3 class="tit-yellow" style="border:none;"> <?php echo $lang['contact'];?>:</h3>
+    <h3 class="tit-yellow" > <?php echo $lang['contact'];?>:</h3>
       <div class="col-md-6 mt15">
          <?php echo $lang['conpany1'];?>
       <p>
@@ -180,7 +180,8 @@ require_once 'header.php';
     
      <div class="col-md-6 mt15">
            <p>
-         <a target="blank" href="https://www.facebook.com/cana.placement.services"><img width="150px;" src="http://www.sonomalandtrust.org/images/like_us_facebook.jpg"></a>
+         <a target="blank" href="https://www.facebook.com/employmaid/
+"><img width="150px;" src="http://www.sonomalandtrust.org/images/like_us_facebook.jpg"></a>
        
       </p>
     </div>

@@ -34,6 +34,8 @@ $lang['tag2'] = 'for English<span class="f-red">印尼駐港總領事館</span>�
 
  $lang['conpany1'] = '<h3>Goodwill Placement Services Limited</h3>(Fortress Hill Head Office )';
  $lang['conpany2'] = '<h3>Happy House Employment Agency </h3>(Central Branch)';
+$lang['privacy'] ="( Privacy Policy: We absolutely respect the privacy of customers, each customer's personal information will only be used as in-house use, unless the customer agrees, the Company will not be used for other purposes information
+)";
 
 
 ?>
