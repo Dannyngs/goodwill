@@ -32,6 +32,9 @@
 
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
+         <div class="lan2 visible-xs">
+         <a href="index.php?lang=chi">繁</a> | <a href="index.php?lang=eng">ENG</a>
+      </div>
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
@@ -46,7 +49,7 @@
       <ul class="nav navbar-nav">
         <?php include_once "nav.php" ;?>
       </ul>
-      <div class="lan">
+      <div class="lan hidden-xs">
          <a href="index.php?lang=chi">繁</a> | <a href="index.php?lang=eng">ENG</a>
       </div>
 

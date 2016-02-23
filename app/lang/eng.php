@@ -8,7 +8,7 @@ Language: Chinese
 $lang = array();
 
 $lang['intro'] = "Introduction";
-$lang['server'] = 'Servers';
+$lang['server'] = 'Services';
 $lang['terms'] = 'Terms';
 $lang['news'] = 'News';
 

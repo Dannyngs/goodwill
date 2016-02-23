@@ -86,7 +86,7 @@ require_once 'header.php';
 
 <div class="row mt15 plr20">
 
-    <h3 class="tit-yellow"> <?php echo $lang['contact'];?>:</h3>
+    <h3 class="tit-yellow" style="border:none;"> <?php echo $lang['contact'];?>:</h3>
       <div class="col-md-6 mt15">
          <?php echo $lang['conpany1'];?>
       <p>
@@ -128,7 +128,7 @@ require_once 'header.php';
 
 
       <div class="col-md-6 mt15 wdall">
-       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.7537062479!2d114.1930249!3d22.2873177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34040101ecba161b%3A0x49b2b2a205f6ef0e!2zR29vZHdpbGwgUGxhY2VtZW50IFNlcnZpY2VzIEx0ZC4gKOWutuitveWDseWCrSkgLS0t5LiD5rW35ZWG5aC0MeaokywxNTAg5a6k!5e0!3m2!1szh-TW!2shk!4v1455681497188" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.7537062479!2d114.1930249!3d22.2873177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34040101ecba161b%3A0x49b2b2a205f6ef0e!2zR29vZHdpbGwgUGxhY2VtZW50IFNlcnZpY2VzIEx0ZC4gKOWutuitveWDseWCrSkgLS0t5LiD5rW35ZWG5aC0MeaokywxNTAg5a6k!5e0!3m2!1szh-TW!2shk!4v1455681497188" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
 
     </div>
@@ -172,16 +172,18 @@ require_once 'header.php';
         </b>
         <a href="mailto:<?php echo $system['emal']?>"><?php echo $system['emal']?></a>
       </p>
+      </div>
+
+       <div class="col-md-6 mt15 wdall">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3691.8521749388633!2d114.12823641440973!3d22.283588849133636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z6aaZ5riv6KW_55Kw5Y2R6Lev5LmN6KGXMzXomZ9B57-h57-g6Zaj5ZWG5aC0M-iZn-mLqg!5e0!3m2!1szh-TW!2shk!4v1455681574448" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+    
+     <div class="col-md-6 mt15">
            <p>
          <a target="blank" href="https://www.facebook.com/cana.placement.services"><img width="150px;" src="http://www.sonomalandtrust.org/images/like_us_facebook.jpg"></a>
        
       </p>
-
-      </div>
-
-       <div class="col-md-6 mt15 wdall">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3691.8521749388633!2d114.12823641440973!3d22.283588849133636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z6aaZ5riv6KW_55Kw5Y2R6Lev5LmN6KGXMzXomZ9B57-h57-g6Zaj5ZWG5aC0M-iZn-mLqg!5e0!3m2!1szh-TW!2shk!4v1455681574448" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-      </div>
+    </div>
 
     </div>
 

@@ -1,0 +1,2 @@
+<?php exit; ?>
+{"ids":["id","chi_title","eng_title","icon"],"table":{"crudTitle":"T_Service manager","crudRowsPerPage":"20"},"filter":{"list":["id","chi_title","eng_title","icon"],"atrr":{"id":{"alias":"id"}}},"column":{"list":["id","chi_title","eng_title","icon"],"actived":["id","chi_title","eng_title"],"atrr":{"id":{"alias":"id"}}},"frm_type":"2"}

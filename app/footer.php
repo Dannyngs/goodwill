@@ -6,7 +6,10 @@
             <p class="f-yellow">This information provided is for reference only. While every effort is made to ensure accuracy, Goodwill /Happy House any liability for any loss or damage whatsoever that may arise whether directly or indirectly as a result of any error, inaccuracy or omission.</p>
           </div>
           <div class="col-md-12 bgyellow" style="overflow:hidden">
-            <a class="pull-left mt5" href="page.php?id=4"><?php echo $lang['terms'];?></a>
+           <div class="col-md-4 mt5">
+             <a href="page.php?id=4"><?php echo $lang['terms'];?></a>   
+           </div>
+            <div class="col-md-8"> 
             <p class="text-right mt15">Copyright Goodwill Placement Services Limited All rights reserved.</p>
           </div>
         </div>

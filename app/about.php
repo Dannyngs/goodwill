@@ -79,8 +79,8 @@ require_once 'header.php';
   </div>
 
   <div class="col-md-12 mt15 plr20 ye-bor">
-    <p><img class="pr20" src="_/images/ab4.jpg"> <?php echo $lang['tag1'];?></p>
-  <p><img img class="pr20" src="_/images/ab5.jpg"> <?php echo $lang['tag2'];?></p>
+    <p><img class="pr20" src="_/images/ab4.jpg">  <?php echo $system[$current_lang.'_tag1'];?></p>
+  <p><img img class="pr20" src="_/images/ab5.jpg"><?php echo $system[$current_lang.'_tag2'];?></p>
     
   </div>
    
