@@ -181,7 +181,7 @@ require_once 'header.php';
      <div class="col-md-6 mt15">
            <p>
          <a target="blank" href="https://www.facebook.com/employmaid/
-"><img width="150px;" src="http://www.sonomalandtrust.org/images/like_us_facebook.jpg"></a>
+"><img width="150px;"  src="http://www.sonomalandtrust.org/images/like_us_facebook.jpg"></a>
        
       </p>
     </div>
